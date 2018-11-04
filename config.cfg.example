@@ -1,0 +1,11 @@
+STATIC_FOLDER = '/public'
+
+SQLALCHEMY_DATABASE_URI = 'mysql://user:your-very-secure-password@localhost/radio_components_box'
+
+MAIL_SERVER = 'smtp.anyserver.com'
+MAIL_PORT = 465
+MAIL_USE_SSL = True
+MAIL_USE_TLS = False
+MAIL_USERNAME = 'example@anyserver.com'
+MAIL_PASSWORD = 'very-secure-password'
+MAIL_DEFAULT_SENDER='example@anyserver.com'
